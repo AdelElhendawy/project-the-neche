@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header h1{
+    margin-top: 50px;
+    color: #a98467;
+    float: left;
+}
+
+
+header{
+width: 80%;
+margin: auto;
+
+}
+
+header ul{
+    display: flex;
+    }
+
+        header li{
+            list-style: none;
+            display: inline-block;
+            margin: 50px 22.6px 0;
+            padding: 10px 20px;
+            position: relative;
+            overflow: hidden;
+            
+            }
+            
+            header a{
+            text-decoration: none;
+            font-size: 17px;
+            }
+    
+
+            .activ table td{
+                width: 44%;
+                padding: 5px;
+            }
+
+
+    
+    .activ table{
+                position: absolute;
+                background-color: antiquewhite;
+                color: #a9740a;
+                width: 400px;
+                height: 180px;
+                border: 3px solid rgb(153, 122, 51);
+                /* opacity: 0; */
+                display: none;
+                top: 100px;
+                left: 280px;
+        }
+        
+     header ul:hover table {
+        /* opacity: 1; */
+        display: block;
+    } 
+    
+    
+    table .line {
+    display: block;
+    margin: 5px 0;
+    border-bottom: 1px solid red;
+    width: 30px;
+    
+    }
+    
+         header ul li:hover span:nth-child(1){
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #927908ed;
+            animation: line1 2s linear infinite;
+            
+            
+            }
+            @keyframes line1{
+            
+            0%{
+            width: 0;
+            
+            }
+            
+            100%{
+                width: 100%;
+            }
+            
+            
+            
+            }
+            
+            
+            
+            header ul li:hover span:nth-child(2){
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 3px;
+            height: 100%;
+            background-color: #926408;
+            animation: line2 2s linear infinite;
+            }
+            
+            @keyframes line2{
+            
+            
+            
+            100%{
+            height: 100%;
+            }
+            
+            }
+            
+            header ul li:hover span:nth-child(3){
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #927008;
+            animation: line3 2s linear infinite;
+            animation-fill-mode: forwards;
+            
+            
+            }
+            
+            @keyframes line3{
+            
+            0%{
+            width: 0;
+            }
+            
+            100%{
+            
+            width: 100%;
+            }
+            
+            }
+            
+            header ul li:hover span:nth-child(4){
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background-color: #926408;
+            animation: line4 2s linear infinite;
+            
+            }
+            
+            @keyframes line4{
+            
+            
+            
+            100%{
+            height: 100%;
+            }
+            
+            
+            
+            
+            
+            }
+            
+            
+            
+
+    
+    header .con{
+    display: inline-block; 
+    margin: 30px 0 0 5.5%;
+    }
+    
+    header .con i:hover{
+        transform: scale(1.2);
+        opacity: 0.5;
+    
+    }
+        
+        header .con i{
+        margin-left: 25px;
+        font-size: 20px;
+        transition: 1s;
+        color: #532e10;
+        cursor: pointer;
+        }
+
+
+
+
+        header nav ul li a{
+            color:rgba(174, 95, 95, 0.826) ;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        .kkk{
+            margin-top: -35px;
+            margin-right: 3px;
+           justify-content: end;
+            display: flex;
+            font-size: 23px;
+            cursor: pointer;
+        
+            
+        }
+        
+        .kkk i{
+            margin-left: 25px;
+            transform: scale(1.2 , 1.2);
+        }
+        header p{
+            margin-left: 15px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+/* ////////////////////////////////////////section1/////////////////////////////////////////////////////// */
+
+
+.section1{
+    width: 80%;
+    margin: 50px auto;
+    height: 550px;  
+    background-color: #a98467;
+    /* opacity: 0.8; */
+}
+.section1 img{
+    margin: 50px 150px;
+    float: right;
+}
+.section1 h2{
+    margin: 200px 100px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+}
+.section1 button{
+    margin:350px 100px ;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/* ///////////////////////////////////////////////////////section2///////////////////////////////////// */
+
+
+
+.section2{ 
+    width: 80%; 
+     margin: auto; 
+}  
+.Category-img{
+    display: flex;
+    justify-content: space-between;
+}
+ .section2 .pp{
+    color: red;
+    opacity: 0;
+}
+
+.Category-img1:hover .pp{
+    opacity: 1;
+}
+
+
+.section22 h2{
+    text-align: center;
+    font-size: 30px;
+}
+ .line{
+    width: 120px;
+    height: 2px;
+    background-color: #a98467;
+    margin: auto;
+    margin-top: 10px;
+}
+.line:hover{
+    transition: 1s; 
+    transform: scale(1.2 , 1.2);
+}
+.section2 img{
+    background-color:#eeaeca70;
+    
+}
+
+
+
+.section2 .img2{
+background-color: aliceblue;
+}
+
+
+.penelope-Astrid{
+    width: 585px;
+    height: 300px;
+    background-color:#e8cbc05f;
+}
+
+.penelope-Astrid i{
+    font-size: 50px;
+    color: #967963;
+    margin-left: 20px;
+}
+
+.penelope-Astrid h2{
+    margin: -30px 70px;
+}
+
+.penelope-Astrid p{
+    -webkit-user-select:none ;
+    width: 90%;
+    margin-left: 25px;
+    line-height: 25px;
+}
+
+.penelope-Astrid h5{
+    margin: 30px 70px;
+}
+
+ .penelope-Astrid .img img{
+    
+    position: absolute;
+    left: 780px;
+    bottom: -735px;
+    
+} 
+
+
+
+.penelope-Astrid .img img:hover{
+    transform: scale(1.1 , 1.1);
+    transition: 2s;
+}
+.penelope-Astrid .img2 img:hover{
+    transform: scale(1.1 , 1.1);
+    transition: 2s;
+}
+
+.penelope-Astrid .img h4{
+    position: absolute;
+
+    left: 800px;
+    margin-top: -200px;
+    color:#a98467 ;
+}
+.penelope-Astrid .img h4 span{
+    color: brown;
+}
+
+
+
+
+.penelope-Astrid .img2 img{
+    
+    position: absolute;
+    left: 1090px;
+    bottom: -735px;
+} 
+
+.penelope-Astrid .img2 h4{
+    position: absolute;
+
+    left: 1115px;
+    margin-top: -200px;
+    color:black ;
+}
+.penelope-Astrid .img2 h4 span{
+    color: brown;
+}
+
+/* ///////////////////////////////اخر حاجه في السشن التاني///////////////////////////////////////// */
+
+
+.par{
+    width: 100%;
+    display: flex;
+    column-count: 5;
+    column-rule: 3px solid rgba(145, 90, 9, 0.541);
+    display: block;
+    margin: 5% 0;
+    }
+    
+    .par-item{
+        width: 100%;
+    text-align: center;  
+    }
+    
+    .icon{
+    height: 35px;
+    transition: transform 0.3s ease ;
+    font-size: 50px;
+    color: rgb(97, 50, 50);
+    opacity: 0.5;
+    }
+
+    .hidden{
+    opacity: 0;
+    transform: translateY(20px);
+    color: rgb(97, 50, 50);
+    }
+
+    .par-item:hover .icon{
+    transform: translateY(-70px);
+    opacity: 0;
+    transition: 0.5s;
+    
+    }
+    
+    .par-item:hover .icon + .hidden{
+    opacity: 1;
+    transform: translateY(-30px);
+    }
+    
+    .par-item h2{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-size: 19px;
+        color:rgb(172, 113, 113);
+        text-align: center;
+    }
+    .par-itemp{
+        color: rgb(73, 42, 4);
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+
+
+
+      /*//////////////////////////////////////////////section3/////////////////////////////////////////////  */
+
+
+
+
+
+      .h2{
+        position: relative;
+        text-align: center;
+        top: 120px;
+        
+    }
+    
+    .li2{
+    position: relative;
+    top: 120px;
+    width: 110px;
+    height: 3px;
+    }
+    .li2:hover{
+        border-radius: 50%;
+    }
+    
+    
+    .Featured-Products{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 170px;
+        /* color: rgba(0, 0, 0, 0.68); */
+        color: #532e10a1;
+    }
+    
+    
+    .Featured-Products h3{
+        margin-left: 50px;
+    }
+    
+    
+    
+    .section3{
+        width: 80%;
+        margin: auto;
+    }
+    /* /////////////////////////////////////////////////////////////// */
+    
+    .parent-Products{
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 300px;
+   
+    justify-content: space-between;
+    transition: 1s;
+    transform-style: preserve-3d;
+    display: flex;
+    
+    }
+    
+    .s1{
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    
+    .s1:hover{
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+    }
+    
+    .s1 , .t1 , .t2{
+        height: 400px; 
+        width: 300px; 
+    }
+    
+    .t1 , .t2{
+        position: absolute;
+    }
+    
+    .t1{
+        
+        background-image: url(../images/nn12.jpg);
+        z-index: 3;
+        backface-visibility: hidden;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    
+    .t2{
+        
+        background-image: url(../images/nn13.jpeg);
+        transform: rotateY(180deg);
+        background-size: cover;
+        border-radius: 20px;
+       
+    }
+    
+    
+    .ppars{
+        margin-top: 120px;
+    }
+    /* .....................................t2.......................................... */
+    .t14{
+        background-image: url(../images/nn14.jpg);
+        background-size: cover;
+    }
+    
+    .t15{
+        background-image: url(../images/nn15.jpg);
+        background-size: cover;
+    }
+    /* ..................................t3....................................... */
+    
+    .t16{
+        background-image: url(../images/nn16.jpg);
+        background-size: cover;
+    }
+    .t17{
+        background-image: url(../images/nn17.jpeg);
+        background-size: cover;
+    }
+    
+    /* ..................................t4........................................... */
+    .t18{
+        background-image: url(../images/nn18.jpg);
+        background-size: cover;
+    }
+    .t19{
+        background-image: url(../images/nnn19.jpg);
+        background-size: cover;
+    }
+    /* .............................t5........................................... */
+    
+    .t20{
+        background-image: url(../images/nnn20.webp);
+        background-size: cover;
+    }
+    .t21{
+        background-image: url(../images/nnn21.webp);
+        background-size: cover;
+    }
+    /* ..................................t6........................................... */
+    .t22{
+        background-image: url(../images/nnn22.jpg);
+        background-size: cover;
+    }
+    .t23{
+        background-image: url(../images/nn23.jpg);
+        background-size: cover;
+    }
+    
+    
+    .t2 i{
+        margin-left: 10px;
+        font-size: 20px;
+        color:white;
+        background-color: #574436;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+    
+    .iii{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+    }
+    
+    
+    
+    .itme i{
+        /* margin-top: 20px; */
+    
+        position: relative;
+        top: 410px;
+        left: 5px;
+    }
+    .itme h4{
+        position: relative;
+        top: 415px;
+        /* left: 5px; */
+    }
+    
+    .itme h3{
+        position: relative;
+        top: 423px;
+        /* left: 20px; */
+    }
+    
+    /* //////////////////////////////////////////////////////////////////////////////////// */
+    
+
+
+    
+
+    
+
+
+    .foteer{
+        width: 100%;
+        height: 200px;
+        /* background-color: #2f5e63cb; */
+        margin-top: 150px;
+        background-color: #5744368f;
+    }
+
+
+     .foteer i{
+              margin-top: 90px;
+              margin-left: 250px;
+              font-size: 25px;
+              color: #574436;
+cursor: pointer;
+     } 
+
+     .foteer i:hover{
+        color: blue;
+     }
+
+
+   
+
+
+
+
+    
+
+
+    
+    
+    
+    
+    
